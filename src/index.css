@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html, body{
+  height: 100%;
+  color: white;
+  font-family: 'Lato', Helvetica;
+}
+
+body{
+  cursor: default;
+  font-size: 1.3rem;
+  margin: 0px;
+  padding: 0px;
+  background-color: #1c1b21;
+  /*background: linear-gradient(180deg, rgb(28, 27, 33) 20%, rgb(14, 14, 17) 100%);*/
+}

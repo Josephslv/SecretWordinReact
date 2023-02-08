@@ -1,0 +1,98 @@
+*{
+    outline: none;
+}
+
+.game *{
+    letter-spacing: 0.4px;
+}
+
+.game .points{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.game h1{
+    margin-top: 20px;
+}
+
+.game p{
+    font-size: 1rem;
+}
+
+.game .tip{
+    margin-top: -15px;
+    font-size: 0.8rem;
+    font-weight: 500    ;
+}
+
+.spanData{
+    color: rgb(159, 236, 236);
+    margin: 0px 2px;
+}
+
+.game .attemptsGame{
+    position: relative;
+    top: 18px;
+}
+
+.wordContainer{
+    display: flex;
+    height: 80px;
+    margin: 1.8em;
+    padding: 0.4em;
+    padding-bottom: 0.7em;
+    border: 4px solid #dfdfdf;;
+}
+
+.letter, .blankSquare{
+    min-width: 80px;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    border: 3px solid #dfdfdf;
+}
+
+.game .letterContainer{
+    margin-top: 50px;
+}
+
+.game .letterContainer input{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 8px;
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.game .letterContainer input:focus{
+    background-color: #f5e8e8;
+}
+
+.game button{
+    display: inline;
+    margin: 0 10px;
+    transform: translateY(0%);
+}
+
+.game button:hover{
+    animation: none;
+}
+
+.game .wrongLettersContainer{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.game .wrongLettersContainer span{
+    position: relative;
+    top: -12px;
+}

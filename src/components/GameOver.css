@@ -1,0 +1,32 @@
+.retry button{
+    font-size: 1.2rem;
+    color: rgb(192, 192, 192);
+    font-weight: 700;
+    padding: 14px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgb(121, 99, 0);
+    box-shadow: 0px 5px 20px rgb(14, 14, 14);
+    transform: translate(-50%, 50%);
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+
+.retry button:hover{
+    color: white;
+    background-color: rgb(179, 176, 0);
+    transition: 0.25s ease-in;
+    /*
+    animation-name: animatoon;
+    */
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+.spanData{
+    color: rgb(159, 236, 236);
+    margin: 0px 2px;
+}
