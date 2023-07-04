@@ -63,8 +63,8 @@ function App() {
     let normalizedLetter = letter.toLowerCase()
 
     if(wrongLetters.includes(normalizedLetter) || guessedLetters.includes(normalizedLetter)){
-      return;
       alert('Esta letra já foi inserida!')
+      return;
     }
 
     if(letters.includes(normalizedLetter)){
@@ -72,6 +72,8 @@ function App() {
         ...actualGuessedLetters,
         normalizedLetter
       ])
+
+      setScore((actualScore) => actualScore += 100)
 
     } else {
 
@@ -102,7 +104,6 @@ function App() {
     const uniqueLetters = [...new Set(letters)]
   
     if(guessedLetters.length === uniqueLetters.length ){
-      setScore((actualScore) => actualScore += 100)
       startGame();
     }
   }, [guessedLetters, startGame, letters])
